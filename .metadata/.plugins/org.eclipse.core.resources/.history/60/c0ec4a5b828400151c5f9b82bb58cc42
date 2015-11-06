@@ -1,0 +1,15 @@
+public class LambdaExpressions {
+    interface MyOp {
+    	double exe(double a, double b);
+    }
+    
+    public static exe(double a, double b, MyOp operation) {
+            	operation.
+    }
+	
+	public static void main(String[] args) {
+        MyOp div = (a,b) -> a/b;
+        System.out.println(div.operation(3, 4));
+ 	}
+
+}

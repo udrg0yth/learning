@@ -1,0 +1,18 @@
+public class LambdaExpressions {
+    interface MyOpp {
+    	double operation(double a, double b);
+    }
+    
+    class Person {
+    	public static final String name = "timmy";
+    	public static final String phone = "000000000";
+    }
+	
+	public static void main(String[] args) {
+        MyOpp div = (a,b) -> a/b;
+        System.out.println(div.operation(3, 4));
+        Person p = new Person("timmy", "000000000")
+         p -> p.printName();
+ 	}
+
+}

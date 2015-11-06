@@ -1,0 +1,11 @@
+import java.io.BufferedReader;
+
+public class LambdaExpressions {
+
+	
+	public static void main(String[] args) {
+        (a,b) -> a/b;
+ 
+ 	}
+
+}
