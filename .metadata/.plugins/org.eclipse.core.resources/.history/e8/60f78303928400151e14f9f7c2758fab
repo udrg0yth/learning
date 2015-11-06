@@ -1,0 +1,20 @@
+package Test;
+import static org.junit.Assert.*;
+import org.junit.runners.Parameterized;.*;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+
+import ClassesToTest.*;
+@Parameter
+private m1;
+@RunWith(Parameterized.class)
+public class Tests {
+	
+	 @Test(timeout = 0)
+     public void TestToTest() {
+    	 ToTest toTest = new ToTest();
+    	 assertEquals("Failed,", 2.3d , toTest.divide(7, 3), 0);
+     }
+}

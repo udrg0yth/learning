@@ -1,0 +1,11 @@
+
+public class ToTest {
+       public divide(double a, double b) {
+    	   double result;
+    	   try {
+    		   retult = a/b;
+    	   } catch(ArithmeticException exception) {
+    		   System.err.println(exception.getMessage());
+    	   }
+       }
+}

@@ -1,0 +1,15 @@
+package Test;
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import ClassesToTest.*;
+
+
+public class Tests {
+	
+	 @Test(timeout = 2)
+     public void TestToTest() {
+    	 ToTest toTest = new ToTest();
+    	 assertEquals("Failed,", 2.3d , toTest.divide(7, 3), 1);
+     }
+}

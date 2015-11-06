@@ -1,0 +1,12 @@
+package Test;
+import org.junit.Test;
+import ClassesToTest.*;
+
+
+public class Tests {
+	
+	 @Test
+     public void TestToTest() {
+    	 ToTest toTest = new ToTest();
+     }
+}
