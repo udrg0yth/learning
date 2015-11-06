@@ -1,10 +1,10 @@
 class A {
 	A() {
-		System.out.println("A constructor");
+		System.out.println("A constructor.");
 	}
 	
 }
-class B extends A{
+class B {
 	private int a;
 	private int b;
 	{
@@ -21,6 +21,6 @@ class B extends A{
 
 public class ExampleIIB {
     public static void main(String[] args) {
-    	new B(); // super is called before initialization block
+    	new A();
     }
 }

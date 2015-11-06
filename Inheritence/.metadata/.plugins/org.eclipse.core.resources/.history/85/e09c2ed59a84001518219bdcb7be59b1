@@ -4,23 +4,21 @@ class A {
 	}
 	
 }
-class B extends A{
+class B {
 	private int a;
 	private int b;
 	{
-		System.out.println("Initialization Block");
 		a=100;
 		b=200;
 	}
 	B() {
-		super();
-		System.out.println("B constructor: " + (a+b));
+		System.out.println("B constructor" + (a+b));
 	}
 }
 
 
 public class ExampleIIB {
     public static void main(String[] args) {
-    	new B(); // super is called before initialization block
+    	new A();
     }
 }

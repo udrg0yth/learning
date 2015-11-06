@@ -21,6 +21,6 @@ class B extends A{
 
 public class ExampleIIB {
     public static void main(String[] args) {
-    	new B(); // super is called before initialization block
+    	new B();
     }
 }
