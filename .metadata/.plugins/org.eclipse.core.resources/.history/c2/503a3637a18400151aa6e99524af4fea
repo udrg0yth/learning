@@ -1,0 +1,18 @@
+interface A{
+	public abstract int A();
+}
+
+
+interface C extends A,B {
+	int C();
+}
+
+abstract class A {
+	
+	abstract void get();
+}
+public class Example {
+	public static void main(String[] args) {
+		
+	}
+}

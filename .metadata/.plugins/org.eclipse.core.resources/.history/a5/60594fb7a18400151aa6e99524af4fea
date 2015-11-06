@@ -1,0 +1,34 @@
+interface A{
+	int a=1;
+	static final int f=1;
+	public abstract int A();
+}
+
+interface B{
+	public abstract int B();
+}
+
+interface C extends A,B {
+	int C();
+}
+
+class D {
+	void D(){
+		
+	}
+}
+
+abstract class Abst implements C{
+	abstract void get();
+	Abst() {
+		this();
+	}
+	void print() {
+		System.out.println("Meant to be inherited!");
+	}
+}
+public class Example {
+	public static void main(String[] args) {
+		
+	}
+}
