@@ -1,0 +1,9 @@
+class A {
+	protected Integer get() {
+		return new(Integer(1));
+	}
+	
+}
+public class Example {
+
+}

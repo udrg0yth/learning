@@ -1,0 +1,9 @@
+class A {
+	Integer get() {
+		return new(1);
+	}
+	
+}
+public class Example {
+
+}

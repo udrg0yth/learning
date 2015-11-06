@@ -1,0 +1,14 @@
+class A {
+	protected Integer get() {
+		return new Integer(1);
+	}
+}
+
+class B extends A {
+	public B get() {
+		return this;
+	}
+}
+public class Example {
+
+}

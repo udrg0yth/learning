@@ -1,0 +1,18 @@
+class A {
+	protected A get() {
+		System.out.println("Class A");
+		return null;
+	}
+}
+
+class B extends A {
+	
+	@Override
+	public B get() {
+		System.out.println("Class B");
+		return null;
+	}
+}
+public class Example {
+     new B().get();
+}
