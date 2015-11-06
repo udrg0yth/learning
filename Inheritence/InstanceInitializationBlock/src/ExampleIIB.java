@@ -1,0 +1,19 @@
+
+class A {
+	private int a;
+	private int b;
+	{
+		a=100;
+		b=200;
+	}
+	A() {
+		System.out.println(a+b);
+	}
+}
+
+
+public class ExampleIIB {
+    public static void main(String[] args) {
+    	new A();
+    }
+}
