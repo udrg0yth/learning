@@ -1,0 +1,13 @@
+class A{
+	
+	
+}
+
+public class Examples {
+
+	public static void main(String[] args) {
+		Class a = Class.forName("A");
+
+	}
+
+}

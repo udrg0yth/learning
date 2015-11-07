@@ -1,0 +1,26 @@
+package first;
+
+class A {
+	private int x;
+	A(int x) {this.x = x;}
+	public int getX(){return x;}
+}
+
+
+class C {
+	public void foo(A a) {
+		a = new A(5);
+	}
+}
+
+
+public class Example {
+
+	public static void main(String[] args) {
+		C c = new C();
+		A a = new A(4);
+		c.foo(a);
+		System.out.println(a.getX());
+	}
+
+}

@@ -1,0 +1,21 @@
+package first;
+
+class A {
+	public void get(){}
+	protected int y = 4;
+	
+}
+
+class B extends A {
+	protected void get(){}
+}
+
+
+public class Example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        System.out.println(new A().x);
+	}
+
+}

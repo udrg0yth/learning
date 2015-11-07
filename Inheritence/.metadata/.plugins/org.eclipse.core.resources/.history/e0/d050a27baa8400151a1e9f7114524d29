@@ -1,0 +1,27 @@
+package first;
+
+class A {
+	
+	public void get(A a){}
+	protected int y = 4;
+	
+}
+
+class B extends A {
+	public void get(){}
+}
+
+class C {
+	public void foo() {
+		
+	}
+}
+
+
+public class Example {
+
+	public static void main(String[] args) {
+		C c = new C();
+	}
+
+}

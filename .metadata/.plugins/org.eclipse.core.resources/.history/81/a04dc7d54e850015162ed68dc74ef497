@@ -1,0 +1,20 @@
+import java.lang.reflect.Field;
+
+class A{
+	
+	
+}
+
+public class Examples {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		Class a = Class.forName("A");
+        System.out.println(a.getName() + " " +
+		                   a.isPrimitive() + " ");
+        for(Field f: a.getDeclaredFields()) {
+        	System.out.print(f);
+        }
+        
+	}
+
+}

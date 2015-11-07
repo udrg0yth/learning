@@ -1,0 +1,22 @@
+interface A{
+	
+}
+
+
+public class Example {
+  
+	void mock() {
+		new A() {
+			void mock2() {
+				
+			}
+		};
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package first;
+
+class A {
+	
+	public void get(A a){}
+	protected int y = 4;
+	
+}
+
+class B extends A {
+	public void get(){}
+}
+
+
+public class Example {
+
+	public static void main(String[] args) {
+		Object o = new Object();
+		System.out.println(o.hashCode());
+	}
+
+}

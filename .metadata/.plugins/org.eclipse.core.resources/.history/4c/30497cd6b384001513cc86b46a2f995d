@@ -1,0 +1,16 @@
+package first;
+import static java.lang.System.out;
+class A {
+	public void fin() throws Throwable {
+		super.finalize();
+	}
+	
+}
+public class FirstClass {
+
+	public static void main(String[] args) {
+            A a =new A();
+            
+	}
+
+}

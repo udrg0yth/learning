@@ -1,0 +1,18 @@
+package first;
+
+class A {
+	public void fin() throws Throwable {
+		super.finalize();
+	}
+	
+}
+public class FirstClass {
+
+	public static void main(String[] args) throws Throwable {
+            A a =new A();short a; int b; long c; 
+            a.fin();
+            while(a != null);
+            System.out.println("deleted");
+	}
+
+}

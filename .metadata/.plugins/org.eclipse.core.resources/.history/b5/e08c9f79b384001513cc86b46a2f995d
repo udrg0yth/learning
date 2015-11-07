@@ -1,0 +1,11 @@
+package first;
+import static java.lang.System.out;
+
+public class FirstClass {
+
+	public static void main(String[] args) {
+		Object o = new Object();
+
+	}
+
+}

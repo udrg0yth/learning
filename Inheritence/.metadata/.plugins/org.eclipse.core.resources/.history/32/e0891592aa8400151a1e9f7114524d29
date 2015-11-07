@@ -1,0 +1,26 @@
+package first;
+
+class A {
+	private int x;
+	A(int x) {this.x = x;}
+	
+}
+
+class B extends A {
+	public void get(){}
+}
+
+class C {
+	public void foo(A a) {
+		a = new A(5);
+	}
+}
+
+
+public class Example {
+
+	public static void main(String[] args) {
+		C c = new C();
+	}
+
+}

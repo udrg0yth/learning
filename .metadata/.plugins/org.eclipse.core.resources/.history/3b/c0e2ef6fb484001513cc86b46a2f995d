@@ -1,0 +1,16 @@
+package first;
+
+class A {
+	public void fin() throws Throwable {
+		super.finalize();
+	}
+	
+}
+public class FirstClass {
+
+	public static void main(String[] args) throws Throwable {
+            String literal = "literal";
+            String literal2 = "literal";
+	}
+
+}
